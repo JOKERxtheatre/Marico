@@ -1,0 +1,20 @@
+.logo-h2 {
+  font-size: 37px;
+  font-family: "Poppins", sans-serif;
+}
+.login-btn {
+  font-family: "Poppins", sans-serif;
+}
+.signup-btn {
+  font-family: "Poppins", sans-serif;
+}
+.active {
+  color: rgb(60, 130, 244);
+}
+.Nav-menu ul a li {
+  transition: 150ms ease all;
+  font-family: "Poppins", sans-serif;
+}
+.Nav-menu ul a:hover li {
+  color: rgb(60, 130, 244);
+}
