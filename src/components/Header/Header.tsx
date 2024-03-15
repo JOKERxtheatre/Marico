@@ -3,25 +3,29 @@ import { Button } from "../ui/button";
 
 const Header = () => {
   return (
-    <div className="Header-section w-full pt-20 container">
+    <div className="Header-section w-full pt-20 container md:px-0">
       <div className="Header flex items-center justify-center flex-col gap-16">
         <div className="Header-headings flex flex-col">
-          <h1 className="Header-heading-1">Own your audience.</h1>
-          <h1 className="Header-heading-2">So you don't lose them.</h1>
+          <h1 className="Header-heading-1 md:text-4xl sm:text-2xl">
+            Own your audience.
+          </h1>
+          <h1 className="Header-heading-2 md:text-4xl  sm:text-2xl">
+            So you don't lose them.
+          </h1>
         </div>
         <div className="Header-get-started flex flex-col items-center">
           <div className="flex flex-col  gap-8 items-center">
-            <h2 className="text-white">
+            <h2 className="text-white md:text-base">
               Turn your audience into email and text message subscribers.
             </h2>
-            <div className="Header-get-started-btn flex w-full justify-between">
+            <div className="Header-get-started-btn flex w-full justify-between md:justify-around">
               <Button
                 variant={"signup"}
-                className="get-started-btn  py-5 text-lg h-14 rounded-xl w-[235px]"
+                className="get-started-btn  py-5 text-lg h-14 rounded-xl w-[235px] md:w-[170px] md:text-base md:h-12 sm:w-[130px] sm:text-sm"
               >
                 Get Started Now
               </Button>
-              <Button className="view-demo-btn text-zinc-500 bg-black border-zinc-500 border py-5 text-lg h-14 rounded-xl w-[235px] hover:text-white hover:border-white hover:bg-inherit ease-linear">
+              <Button className="view-demo-btn text-zinc-500 bg-black border-zinc-500 border py-5 text-lg h-14 rounded-xl w-[235px] hover:text-white hover:border-white hover:bg-inherit ease-linear  md:w-[170px] md:text-base md:h-12 sm:w-[130px]  sm:text-sm">
                 View A Demo
               </Button>
             </div>

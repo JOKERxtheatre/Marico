@@ -6,6 +6,7 @@ const Footer = () => {
           <div>
             <a href="/" className="flex items-center justify-center gap-2.5">
               <svg
+                className="md:w-[25px] md:h-[30px]"
                 width="38"
                 height="43"
                 viewBox="0 0 47.176 52.3838"
@@ -37,11 +38,13 @@ const Footer = () => {
                   fill-rule="evenodd"
                 />
               </svg>
-              <span className="text-white font-extrabold text-4xl">Marico</span>
+              <span className="text-white font-extrabold text-4xl md:text-3xl">
+                Marico
+              </span>
             </a>
           </div>
           <h4
-            className="text-2xl font-normal leading-[40px]"
+            className="text-2xl font-normal leading-[40px] md:text-xl md:leading-[45px]"
             style={{
               color: "#707070",
             }}
@@ -49,8 +52,8 @@ const Footer = () => {
             info@marico.co
           </h4>
         </div>
-        <div className="Nav-menu">
-          <ul className="flex items-center justify-center text-zinc-500 gap-x-8 text-lg">
+        <div className="Nav-menu min-w-[300px] md:min-w-[180px] sm:min-w-[100px]">
+          <ul className="w-full flex items-center justify-between text-zinc-500  text-lg md:text-sm md:items-end h-16 sm:flex-col sm:h-20">
             <a href="/">
               <li>About</li>
             </a>

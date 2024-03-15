@@ -2,11 +2,12 @@ import { Button } from "../ui/button";
 
 const GetStartedNow = () => {
   return (
-    <div className="GetStartedNow-section flex items-center justify-center container">
+    <div className="GetStartedNow-section flex items-center justify-center container md:mt-8">
       <div className="GetStartedNow flex flex-col items-center justify-center gap-7">
         <div className="logo">
           <a href="/">
             <svg
+              className="md:w-[84px] md:h-[84px]"
               width="134.438965"
               height="124.780273"
               viewBox="0 0 164.439 154.78"
@@ -41,20 +42,23 @@ const GetStartedNow = () => {
           </a>
         </div>
         <div className="GetStartedNow-text flex flex-col items-center justify-center">
-          <h1 className="text-white font-bold text-7xl">Get Started Now</h1>
-          <h2 className="text-white font-normal text-3xl tracking-wider">
+          <h1 className="text-white font-bold text-7xl md:text-4xl">
+            Get Started Now
+          </h1>
+          <h2 className="text-white font-normal text-3xl tracking-wider md:text-xl text-center">
             Setup is easy and takes under 5 minutes.
           </h2>
           <Button
             variant={"signup"}
-            className="get-started-btn  py-5 text-lg h-14 rounded-xl w-[235px] mt-3"
+            className="get-started-btn  py-5 text-lg h-14 rounded-xl w-[235px] mt-3 md:w-[155px] md:py-0 md:h-12 md:text-base"
           >
             Get Started Now
           </Button>
         </div>
-        <p className="flex gap-1 text-zinc-500 items-center justify-center mt-5 text-2xl">
+        <p className="flex gap-1 text-zinc-500 items-center justify-center mt-5 text-2xl md:text-sm md:mt-0 ">
           <div className="dot">
             <svg
+              className="md:w-[20px] md:h-[20px]"
               width="28"
               height="28"
               viewBox="0 0 28.6 28.5999"
@@ -82,7 +86,9 @@ const GetStartedNow = () => {
               </g>
             </svg>
           </div>
-          <span className="font-bold text-white text-2xl ml-2 mr-1">1000+</span>
+          <span className="font-bold text-white text-2xl ml-2 mr-1 md:text-lg md:ml-1">
+            1000+
+          </span>
           creators have already started
         </p>
       </div>

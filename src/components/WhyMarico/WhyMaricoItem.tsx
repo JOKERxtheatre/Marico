@@ -1,9 +1,10 @@
 const WhyMaricoRow = () => {
   return (
-    <div className="WhyMaricoRow flex w-full justify-between px-32">
+    <div className="WhyMaricoRow flex w-full justify-between px-32 md:px-0 md:flex-col md:h-80">
       <div className="WhyMarico-row-item flex flex-col gap-2.5 items-center">
-        <h2 className="flex text-white text-2xl gap-2 font-semibold">
+        <h2 className="flex text-white text-2xl gap-2 font-semibold md:text-xl">
           <svg
+            className="md:w-[24px] md:h-[24px]"
             width="32"
             height="32"
             viewBox="0 0 37 37.0017"
@@ -70,13 +71,14 @@ const WhyMaricoRow = () => {
           </svg>
           Reduced Anxiety
         </h2>
-        <p className="text-zinc-500 tracking-wide">
+        <p className="text-zinc-500 tracking-wide text-center">
           Never worry about losing your audience.
         </p>
       </div>
       <div className="WhyMarico-row-item flex flex-col gap-2.5 items-center">
-        <h2 className="flex text-white text-2xl gap-2 font-semibold">
+        <h2 className="flex text-white text-2xl gap-2 font-semibold md:text-xl">
           <svg
+            className="md:w-[24px] md:h-[24px]"
             width="32.000000"
             height="32.000000"
             viewBox="0 0 32 32"
@@ -171,13 +173,14 @@ const WhyMaricoRow = () => {
           </svg>
           Lower Workload
         </h2>
-        <p className="text-zinc-500 tracking-wide">
+        <p className="text-zinc-500 tracking-wide text-center">
           Just share one link. We'll handle the rest.
         </p>
       </div>
       <div className="WhyMarico-row-item flex flex-col gap-2.5 items-center">
-        <h2 className="flex text-white text-2xl gap-2 font-semibold">
+        <h2 className="flex text-white text-2xl gap-2 font-semibold md:text-xl">
           <svg
+            className="md:w-[28px] md:h-[28px]"
             width="36"
             height="36"
             viewBox="0 0 43.2075 42.4885"
@@ -417,7 +420,7 @@ const WhyMaricoRow = () => {
           </svg>
           More Time
         </h2>
-        <p className="text-zinc-500 tracking-wide">
+        <p className="text-zinc-500 tracking-wide text-center">
           Spend less time on marketing tools
         </p>
       </div>

@@ -4,9 +4,9 @@ const OneLink = () => {
   return (
     <div className="OneLink-section flex items-center justify-center w-full my-28 container">
       <div className="OneLink flex flex-col items-center gap-8">
-        <div className="OneLink-row flex w-full gap-5">
+        <div className="OneLink-row flex w-full gap-5 lg:flex-col">
           <div
-            className="OneLink-left w-[654px] flex flex-col pl-9 pt-5 gap-4"
+            className="OneLink-left w-[654px] flex flex-col pl-9 pt-5 gap-4 xl:w-[500px] md:w-[360px] sm:pl-1 sm:pt-1 sm:w-[300px]"
             style={{
               backgroundColor: "rgb(13, 13, 13)",
             }}
@@ -14,7 +14,7 @@ const OneLink = () => {
             <div className="flex flex-col gap-6">
               <a href="/">
                 <h4
-                  className="text-2xl font-normal leading-[45px]"
+                  className="text-2xl font-normal leading-[45px]  xl:text-xl md:text-base"
                   style={{
                     color: "#0FC65C",
                   }}
@@ -28,14 +28,16 @@ const OneLink = () => {
                 style={{
                   color: "#919191",
                 }}
-                className="text-[70px] font-semibold leading-[80px]"
+                className="text-[70px] font-semibold leading-[80px] xl:text-[60px] md:text-[42px] md:leading-[48px]"
               >
-                ALL You Create. <br />
+                ALL You <br />
+                Create. <br />
                 <span className="text-white">One Link</span>
               </h1>
             </div>
             <div className="flex w-full items-end flex-col">
               <svg
+                className="md:w-[320px] md:h-[138px] sm:w-[280px] sm:h-[120px]"
                 width="555"
                 height="238"
                 viewBox="0 0 788 338"
@@ -108,7 +110,7 @@ const OneLink = () => {
               </svg>
               <div className="time">
                 <h5
-                  className="text-white absolute flex -translate-x-[420px] -translate-y-[155px] text-[20px] font-bold"
+                  className="text-white absolute flex -translate-x-[420px] -translate-y-[155px] text-[20px] font-bold md:-translate-x-[250px] md:-translate-y-[85px] md:text-sm"
                   style={{
                     fontFamily: "Roboto, sans-serif",
                   }}
@@ -117,13 +119,13 @@ const OneLink = () => {
                 </h5>
               </div>
               <div
-                className="input absolute text-white flex gap-[80px] rounded-lg h-[44px] rounded-tr-none rounded-br-none -translate-x-[1px] translate-y-[170px] items-center justify-start w-[478px] px-6"
+                className="input absolute text-white flex gap-[80px] rounded-lg h-[44px] rounded-tr-none rounded-br-none -translate-x-[1px] translate-y-[170px] items-center justify-start w-[478px] px-6 md:w-[258px] md:h-[38px] md:translate-y-[88px] md:-translate-x-[1px] md:gap-5"
                 style={{
                   backgroundColor: "#323234",
                 }}
               >
                 <h5
-                  className="text-base font-normal leading-[33px]"
+                  className="text-base font-normal leading-[33px] md:text-sm"
                   style={{
                     fontFamily: "Roboto, sans-serif",
                   }}
@@ -154,7 +156,7 @@ const OneLink = () => {
                     fontFamily: "Roboto, sans-serif",
                     color: "#84E575",
                   }}
-                  className="text-2xl font-light leading-[46px]"
+                  className="text-2xl font-light leading-[46px] md:text-lg"
                 >
                   yourname.wavium.co
                 </h6>
@@ -162,15 +164,15 @@ const OneLink = () => {
             </div>
           </div>
           <div
-            className="OneLink-right w-[654px] flex flex-col pl-9 pt-5 gap-4"
+            className="OneLink-right w-[654px] flex flex-col pl-9 pt-5 gap-4 xl:w-[500px] md:w-[360px]  sm:pl-1 sm:pt-1 sm:w-[300px]"
             style={{
               backgroundColor: "rgb(13, 13, 13)",
             }}
           >
-            <div className="flex flex-col gap-20">
+            <div className="flex flex-col gap-20 md:gap-16 md:h-[370px]">
               <a href="/">
                 <h4
-                  className="text-2xl font-normal leading-[45px]"
+                  className="text-2xl font-normal leading-[45px] xl:text-xl md:text-base"
                   style={{
                     color: "#0FC65C",
                   }}
@@ -184,7 +186,7 @@ const OneLink = () => {
                 style={{
                   color: "#919191",
                 }}
-                className="text-[70px] font-semibold leading-[80px]"
+                className="text-[70px] font-semibold leading-[80px] xl:text-[60px]  md:text-[42px] md:leading-[48px]"
               >
                 Emails. <br />
                 Phone #s. <br />
